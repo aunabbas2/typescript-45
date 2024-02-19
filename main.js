@@ -1,29 +1,19 @@
 "use strict";
-let list = ['imran khan', 'nawaz sharif', 'zardari'];
-//for(let i=0; i<list.length;i++){//
-// console.log('dear Mr'+list[i] + ',\n\nit is our pleasure to invite you in party.\n\nTHANKYOU!\n\n')
-//}
-let absent_guest = 'imran khan';
-let new_guest = 'SIR KAMRAN KHAN TESSORI';
-list[0] = new_guest;
-//for(let i=0; i<list.length;i++){                     //again loop//
-//  console.log('dear Mr'+list[i] + ',\n\nit is our pleasure to invite you in party.\n\nTHANKYOU!\n\n')
-//}
-console.log(`MR ${absent_guest} is not coming `);
-console.log('good news! we find big table so we are invited more 3 guest');
-list.unshift('sir zia khan');
-list.splice(2, 0, 'MARIAM NAWAZ');
-list.push('bilawal bubloo');
-for (let i = 0; i < list.length; i++) { //again loop//
-    console.log('dear Mr' + list[i] + ',\n\nit is our pleasure to invite you in party.\n\nTHANKYOU!\n\n');
-}
-console.log('\nsorry we cant arrange big table,only two pwople will be invited');
-while (list.length > 2) {
-    let remove_guest = list.pop();
-    console.log(`sorry mr. ${remove_guest}, you r notinvited for dinner`);
-}
-for (let i = 0; i < list.length; i++) { //again loop//
-    console.log('dear Mr' + list[i] + ',\n\nyou are still invited .\n\nTHANKYOU!\n\n');
-}
-list.splice(0, 2);
-console.log(list);
+// Store the locations in a array. Make sure the array is not in alphabetical order.//
+let places = ['Italy', 'UAE', 'Paris', 'USA', 'England'];
+//Print your array in its original order.
+console.log(places); //originol
+//Print your array in alphabetical order without modifying the actual list.
+console.log([...places].sort()); //copy
+//Show that your array is still in its original order by printing it.
+console.log(places);
+//Print your array in reverse alphabetical order without changing the order of the original list.
+console.log([...places].sort().reverse());
+//Show that your array is still in its original order by printing it again.
+console.log(places);
+//Reverse the order of your list. Print the array to show that its order has changed.
+console.log(places.reverse());
+//Reverse the order of your list again. Print the list to show it’s back to its original order.
+console.log(places.reverse());
+// Sort your array so it’s stored in alphabetical order. Print the array to show that its order has changed
+console.log(places.sort().reverse());

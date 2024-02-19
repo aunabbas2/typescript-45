@@ -1,40 +1,26 @@
-let list: string[] = ['imran khan','nawaz sharif','zardari'];
-//for(let i=0; i<list.length;i++){//
+// Store the locations in a array. Make sure the array is not in alphabetical order.//
+let places : string[] = ['Italy','UAE','Paris','USA','England'];
 
-   // console.log('dear Mr'+list[i] + ',\n\nit is our pleasure to invite you in party.\n\nTHANKYOU!\n\n')
-//}
-let absent_guest : string = 'imran khan';
-let new_guest : string = 'SIR KAMRAN KHAN TESSORI';
+//Print your array in its original order.
+console.log(places);                                        //originol
 
-list[0] = new_guest;
+//Print your array in alphabetical order without modifying the actual list.
+console.log([...places].sort());//copy
 
-//for(let i=0; i<list.length;i++){                     //again loop//
+//Show that your array is still in its original order by printing it.
+console.log(places);
 
-  //  console.log('dear Mr'+list[i] + ',\n\nit is our pleasure to invite you in party.\n\nTHANKYOU!\n\n')
-//}
+//Print your array in reverse alphabetical order without changing the order of the original list.
+console.log([...places].sort().reverse());
 
-console.log(`MR ${absent_guest} is not coming `)
-console.log('good news! we find big table so we are invited more 3 guest')
-list.unshift('sir zia khan');
-list.splice(2 , 0, 'MARIAM NAWAZ');
-list.push('bilawal bubloo');
+//Show that your array is still in its original order by printing it again.
+console.log(places);
 
-for(let i=0; i<list.length;i++){                     //again loop//
+//Reverse the order of your list. Print the array to show that its order has changed.
+console.log(places.reverse());
 
-    console.log('dear Mr'+list[i] + ',\n\nit is our pleasure to invite you in party.\n\nTHANKYOU!\n\n')
-}
-console.log('\nsorry we cant arrange big table,only two pwople will be invited');
+//Reverse the order of your list again. Print the list to show it’s back to its original order.
+console.log(places.reverse());
 
-while(list.length > 2){
-   let remove_guest = list.pop();
-
-
-console.log(`sorry mr. ${remove_guest}, you r notinvited for dinner`);
-}
-
-for(let i=0; i<list.length;i++){                     //again loop//
-
-    console.log('dear Mr'+list[i] + ',\n\nyou are still invited .\n\nTHANKYOU!\n\n')
-}
-list.splice(0,2);
-console.log(list);
+// Sort your array so it’s stored in alphabetical order. Print the array to show that its order has changed
+console.log(places.sort().reverse());
