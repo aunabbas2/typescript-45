@@ -1,7 +1,5 @@
-// adding comments//
+let names : string[] = ['aun','ayesha','bilal','daniyal','aashir'];
 
-
-
-
-//NAME AUN ABBAS//
-//CURRENT DATE 17 -02 -24//
+for(let i=0; i<names.length;i++){
+    console.log(names[i]);
+}
