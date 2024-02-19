@@ -1,7 +1,4 @@
-console.log(6+2); //ADDITION//
+const favNumber : number = 6;
 
-console.log(10-2);   //SUBTRACTION//
-
-console.log(4*2); //multiplication//
-
-console.log(16/2); // division//
+const messege : string = 'here is your fav number '+ favNumber;
+console.log(messege);
