@@ -1,6 +1,7 @@
-const personName : string = '   \n\tAun Abbas\t\n   ';
+console.log(6+2); //ADDITION//
 
-console.log(personName);
+console.log(10-2);   //SUBTRACTION//
 
-const wws : string = personName.trim();
-console.log(wws);
+console.log(4*2); //multiplication//
+
+console.log(16/2); // division//
