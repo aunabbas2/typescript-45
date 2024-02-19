@@ -1,5 +1,5 @@
 "use strict";
-let transportation = ['motorcycle', 'car', 'cycle', 'train'];
-for (let i = 0; i < transportation.length; i++) {
-    console.log('i would like to own a' + transportation[i]);
+let list = ['imran khan', 'nawaz sharif', 'zardari'];
+for (let i = 0; i < list.length; i++) {
+    console.log('dear Mr' + list[i] + ',\n\nit is our pleasure to invite you in party.\n\nTHANKYOU!');
 }
