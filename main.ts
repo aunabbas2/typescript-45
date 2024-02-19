@@ -1,4 +1,7 @@
-const favNumber : number = 6;
+// adding comments//
 
-const messege : string = 'here is your fav number '+ favNumber;
-console.log(messege);
+
+
+
+//NAME AUN ABBAS//
+//CURRENT DATE 17 -02 -24//
