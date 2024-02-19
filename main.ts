@@ -1,5 +1,6 @@
-let famousPerson : string = "Albert Einstien";
+const personName : string = '   \n\tAun Abbas\t\n   ';
 
-let messege : string = '"A person who never made a mistake never tried anything new"';
+console.log(personName);
 
-console.log(`${famousPerson} once said, ${messege}`);
+const wws : string = personName.trim();
+console.log(wws);

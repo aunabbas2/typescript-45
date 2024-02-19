@@ -1,4 +1,5 @@
 "use strict";
-let famousPerson = "Albert Einstien";
-let messege = '"A person who never made a mistake never tried anything new"';
-console.log(`${famousPerson} once said, ${messege}`);
+const personName = '   \n\tAun Abbas\t\n   ';
+console.log(personName);
+const wws = personName.trim();
+console.log(wws);
