@@ -1,4 +1,2 @@
 "use strict";
-let person_name = "aun";
-let messege = ` hello ${person_name},hope u r doing will these days`;
-console.log(messege);
+console.log("Albert Einstein once said, “A person who never made a mistake never tried anything new.”");
