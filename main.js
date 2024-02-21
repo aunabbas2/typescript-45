@@ -1,6 +1,5 @@
 "use strict";
-let personName = "aun abbas";
-let lowercaseName = personName.toLowerCase();
-console.log(lowercaseName);
-let uppercaseName = personName.toUpperCase();
-console.log(uppercaseName);
+let list_of_Country = ['UAE', 'JAPAN', 'USA', 'PAK', 'INDIA'];
+for (let i = 0; i < list_of_Country.length; i++) {
+    console.log(list_of_Country[i]);
+}
