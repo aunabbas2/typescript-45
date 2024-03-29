@@ -1,5 +1,4 @@
 "use strict";
-let list_of_Country = ['UAE', 'JAPAN', 'USA', 'PAK', 'INDIA'];
-for (let i = 0; i < list_of_Country.length; i++) {
-    console.log(list_of_Country[i]);
-}
+//They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
+let person = { name: 'AUN ABBAS', Fname: 'anwar', age: 22 };
+console.log(person);
