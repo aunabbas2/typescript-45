@@ -1,14 +1,24 @@
 "use strict";
-// alien colors 1: imagine an alien was just shot down in a game.create a variable called alien_color and assign
-//it a value of 'green","yellow", or "red"
-let alien_color = " green"; //variab;e//
-//write an if statenment to test wheather the alien color is green.if itis print a messege that the player just earned 5 points.
-if (alien_color === 'green') {
-    console.log("player just earn 5 ponts!");
+// Choose a color for an alien 
+let alien_color = "green";
+// and write an if-else chain.
+// • If the alien’s color is green, print a statement that the player just earned 5 points for shooting the alien.
+if (alien_color === "green") {
+    console.log("player just earn 5 points for shooting alien");
 }
-//wite one version of this program that passes the if test and another that fails.
-alien_color = " yellow"; //variab;e//
-//version that fails no output//
-if (alien_color === 'green') {
-    console.log("player just earn 5 ponts!");
+// • If the alien’s color isn’t green, print a statement that the player just earned 10 points.
+else {
+    console.log("player just earn 10 oints");
 }
+alien_color = "yellow";
+if (alien_color === "green") {
+    console.log("player just earn 5 points for shooting alien");
+}
+else {
+    console.log("player just earn 10 oints");
+}
+//( ) parenthesis
+//[] square bracket
+// {}curly braces
+// • If the alien’s color isn’t green, print a statement that the player just earned 10 points.
+// • Write one version of this program that runs the if block and another that runs the else block.
