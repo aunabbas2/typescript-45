@@ -1,37 +1,19 @@
-// equality and enquallity test1
+// alien colors 1: imagine an alien was just shot down in a game.create a variable called alien_color and assign
+//it a value of 'green","yellow", or "red"
 
-console.log("equality test with strings:","apple"=== "apple");
+let alien_color : string =" green"; //variab;e//
 
-// equality and enquallity test2
+//write an if statenment to test wheather the alien color is green.if itis print a messege that the player just earned 5 points.
+if(alien_color==='green'){
+    console.log("player just earn 5 ponts!");
+}
 
-console.log("eneqality test with strings:",("apple" as string)!= "orange");  //string is lia lgaya kui k two alag hai apple alag orange alag same nhi hai//
-
-//test using lower case function//
-console.log("lower case test function:","HELLO".toLowerCase()==="hello");//lower case funcyion se hello small hogya/
-
-//numerical test involving euility and enequlity//
-
-console.log("equality test with numbers",23 === 23);
-
-//greater then/
-console.log("greater than test:",10>5);
-
-// less then//
-console.log("less than test:",5<10);
+//wite one version of this program that passes the if test and another that fails.
 
 
+alien_color   =" yellow";  //variab;e//
 
-//greater than or equal to//
-console.log("greater than and equal to test:",10>=10);
-//less than equal to//
-console.log("less than equal to test:",5<=10);
-
-//test using "and" n  "or" opreator
-console.log("AND opreator test:",5===5 && 10>5);
-
-//tetsing using or opretor//
-console.log("AND opreator test:",5===5 || 10>5);
-
-//test wheather item is arry or not//
-const fruits:string[]=["apple","bannana"];
-console.log('test "bannana"in the array:',fruits.includes('bannana'))    ;      //include string ka function hai//
+//version that fails no output//
+if(alien_color==='green'){
+    console.log("player just earn 5 ponts!");
+}
