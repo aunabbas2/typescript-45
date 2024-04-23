@@ -1,49 +1,37 @@
-// Write a series of conditional tests.
+// equality and enquallity test1
 
-let car : string = 'sabaru';     //creating car varable
-// test no 1
-console.log("Is car == 'subaru'? I predict True.");
-console.log(car === 'sabaru');
+console.log("equality test with strings:","apple"=== "apple");
 
-//test no 2//
+// equality and enquallity test2
 
-console.log("Is car == 'sabaru'? I predict True.");
-console.log(car == 'sabaru');
+console.log("eneqality test with strings:",("apple" as string)!= "orange");  //string is lia lgaya kui k two alag hai apple alag orange alag same nhi hai//
 
-// test no 3
-console.log("Is car != 'honda'? I predict True.");     //not equal//
-console.log(car != 'honda');
+//test using lower case function//
+console.log("lower case test function:","HELLO".toLowerCase()==="hello");//lower case funcyion se hello small hogya/
 
-//test no 4)
-console.log("Is car !== 'civic'? I predict True.");     //not equal//
-console.log(car != 'civic');
+//numerical test involving euility and enequlity//
 
-// test no 5
-console.log("Is car .uppercase == 'SABARU'? I predict True.");     //checking is it uppercase or not yes it is//
-console.log(car .toUpperCase() == 'SABARU');
+console.log("equality test with numbers",23 === 23);
 
-//test no 6
+//greater then/
+console.log("greater than test:",10>5);
 
-console.log("Is car == 'SABARU'? I predict false.");
-console.log(car == 'SABARU');
-//test no 7
-console.log("Is car === 'SABARU'? I predict false.");
-console.log(car === 'SABARU');
-
-//test no 8//
-console.log("Is car === 'train'? I predict false.");
-console.log(car === 'train');
-// test 9//
-console.log("Is car === 'BUS'? I predict false.");
-console.log(car === 'BUS');
-
-//test 10//
-console.log("Is car === 'cycle'? I predict false.");
-console.log(car === 'cycle');
+// less then//
+console.log("less than test:",5<10);
 
 
 
+//greater than or equal to//
+console.log("greater than and equal to test:",10>=10);
+//less than equal to//
+console.log("less than equal to test:",5<=10);
 
+//test using "and" n  "or" opreator
+console.log("AND opreator test:",5===5 && 10>5);
 
+//tetsing using or opretor//
+console.log("AND opreator test:",5===5 || 10>5);
 
-
+//test wheather item is arry or not//
+const fruits:string[]=["apple","bannana"];
+console.log('test "bannana"in the array:',fruits.includes('bannana'))    ;      //include string ka function hai//
