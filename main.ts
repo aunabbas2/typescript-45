@@ -1,36 +1,30 @@
-// Choose a color for an alien 
+// Stages of Life: Write an if-else chain that determines a person’s stage of life. Set a value for the variable age, and then:
+let age : number = 25;
 
-let alien_color:string = "green";
-// and write an if-else chain.
-// • If the alien’s color is green, print a statement that the player just earned 5 points for shooting the alien.
-if(alien_color==="green"){
-    console.log("player just earn 5 points for shooting alien");
+// If the person is less than 2 years old, print a message that the person is a baby.
+if(age<2){
+
+    console.log("person is baby");
 }
-// • If the alien’s color isn’t green, print a statement that the player just earned 10 points.
+// If the person is at least 2 years old but less than 4, print a message that the person is a toddler.
+else if(age >=2 && age<4){
+    console.log("person is toddler");
+}
 
-
-
+// If the person is at least 4 years old but less than 13, print a message that the person is a kid.
+else if(age >=4 && age<13){
+    console.log("person is kid");
+}
+// If the person is at least 13 years old but less than 20, print a message that the person is a teenager.
+else if(age >=13 && age<20){
+    console.log("person is teenager");
+}
+// If the person is at least 20 years old but less than 65, print a message that the person is an adult.
+else if(age >=20 && age<65){
+    console.log("person is adult");
+}
+// If the person is age 65 or older, print a message that the person is an elder.
 else{
-    console.log("player just earn 10 oints")
-}
-alien_color = "yellow";
-
-
-if(alien_color==="green"){
-    console.log("player just earn 5 points for shooting alien");
+    console.log("person is elder")
 }
 
-else{
-    console.log("player just earn 10 oints")
-}
-
-
-//( ) parenthesis
-//[] square bracket
-// {}curly braces
-
-
-
-// • If the alien’s color isn’t green, print a statement that the player just earned 10 points.
-
-// • Write one version of this program that runs the if block and another that runs the else block.
